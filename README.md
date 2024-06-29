@@ -8,10 +8,11 @@ Support finetuning GLM4v with zero2
 
 ## 自定义数据集
 组织格式的代码可以参考：
+``` python
 import os
 import json
 import random
-``` python
+
 folder_path = ''
 # file_names = os.listdir(folder_path)
 file_names = ['refexp_train.jsonl', 'widget_caption_maxlen_train.jsonl',  'taperception_train.jsonl']
