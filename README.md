@@ -6,6 +6,8 @@ Support finetuning GLM4v with zero2
 1. GLM4v模型文件forward修改、数据预处理修改等
 2. 自定义数据集格式更简单
 
+您需要从huggingface中下载的glm4v模型，把`THUDM/glm-4v-9b`中的`modeling_chatglm.py`替换为本仓库中的`modeling_chatglm.py`。
+
 ## 自定义数据集
 组织格式的代码可以参考：
 ``` python
